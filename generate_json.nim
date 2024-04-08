@@ -43,7 +43,7 @@ for idx, val in ids:
             curr_vendor = %* {
                 item[0]: {
                     "id": item[0],
-                    "name": item[1],
+                    "name": item[2],
                     "devices": {}
                 }
             }
