@@ -24,7 +24,7 @@ for idx, val in ids:
         item: seq[string]
 
     if val.strip() != "" and val[0] != '#' and val != "\n":
-        if val[0..1] == "\t":
+        if $val[0] == "\t":
             val = val[1..len(val)]
             val = val[0..len(val)-1]
             item = val.split(" ", maxsplit=2)
