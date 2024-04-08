@@ -47,5 +47,6 @@ for idx, val in ids:
             curr_vendor_key = item[0]
 
 
-
-echo data
+# Parse data to json file.
+let resultingFile = open("result.json", fmWrite)
+resultingFile.write(data)
